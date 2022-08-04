@@ -24,3 +24,5 @@ The folder structure is as follows:
 ├── app.png
 └── attention_pytorch_opt.py   <-------- Pytorch code for stance with hyperparameter optimization with comet (No Elmo)
 ```
+
+![App](app.png)
