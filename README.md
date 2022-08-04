@@ -4,6 +4,7 @@ This repo contains some of the source code for the work 'Stance detection from w
 
 The folder structure is as follows:
 
+```
 .
 ├── App    
 │   ├── README
@@ -17,3 +18,4 @@ The folder structure is as follows:
 │   └── logging_mod.py
 ├── app.png
 └── attention_pytorch_opt.py 
+```
