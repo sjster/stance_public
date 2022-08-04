@@ -9,7 +9,7 @@ The folder structure is as follows:
 ├── App    
 │   ├── README
 │   └── vis.py
-├── Elmo_pytorch.py   
+├── Elmo_pytorch.py            <--------- Pytorch code with Elmo embeddings for stance extraction 
 ├── README.md
 ├── RQ               
 │   ├── README.md
@@ -17,5 +17,5 @@ The folder structure is as follows:
 │   ├── job_submission.py
 │   └── logging_mod.py
 ├── app.png
-└── attention_pytorch_opt.py 
+└── attention_pytorch_opt.py   <-------- Pytorch code for stance with hyperparameter optimization with comet (No Elmo)
 ```
