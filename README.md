@@ -5,13 +5,18 @@ This repo contains some of the source code for the work 'Stance detection from w
 The folder structure is as follows:
 
 ```
-.
-├── App    
+├── Airflow_scripts           <---------- Airflow scripts for job orchestration     
+│   ├── generate_graphs_remote.py
+│   ├── plotting.py
+│   ├── pytorch_attention_rnn_runner.py
+│   ├── pytorch_elmo_runner.py
+│   └── pytorch_rnn.py.
+├── App                        <--------- Web app in Plot.ly Dash
 │   ├── README
 │   └── vis.py
 ├── Elmo_pytorch.py            <--------- Pytorch code with Elmo embeddings for stance extraction 
 ├── README.md
-├── RQ               
+├── RQ                         <--------- Tweet downloader
 │   ├── README.md
 │   ├── job.py
 │   ├── job_submission.py
