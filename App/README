@@ -1,0 +1,9 @@
+Label 0 stands for Liberals and 1 for Conservatives
+
+This reads three files:
+1. Test.csv: Data with text and id, this id is used to index the text in the app
+2. Vis_data_pca.txt and Vis_data_tsne.txt: Vis output files
+
+The Test.csv file has the format: record_id, text, id, label. Once the user interacts and toggles the label, the test.csv file can be exported to the file 'Exported.csv' in the folder where the app is run. This file, however, has the data format that allows you to feed it back to the DNN directly. Note that this format is different from the one in Test.csv and is id, text, label.
+
+
